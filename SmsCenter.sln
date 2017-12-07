@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsCenter.Entities", "SmsCenter.Entities\SmsCenter.Entities.csproj", "{C5F5D92A-411D-4F07-87A3-DEFFC8DF3DE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsCenter.DataAccess", "SmsCenter.DataAccess\SmsCenter.DataAccess.csproj", "{3E6C7041-331C-4FEA-B2BA-E5FA95084BA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsCenter.Facade", "SmsCenter.Facade\SmsCenter.Facade.csproj", "{B8618AD5-DDD2-42EF-AAFF-FCA3D0AB64A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsCenter.Api", "SmsCenter.Api\SmsCenter.Api.csproj", "{0C3E1140-9706-4620-AF24-A4118302B72B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{BC857191-B98A-4E9F-A1FA-DE27B201BF8F}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\README.md = Lib\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winner.SmsCenter.Client", "SmsCenter.Proxy\Winner.SmsCenter.Client.csproj", "{F0F790CC-0588-46C8-A8E8-9DBD9ECA7530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsCenter.UnitTest", "SmsCenter.UnitTest\SmsCenter.UnitTest.csproj", "{AA89BE44-55A4-4405-B363-C1BAD1E25F59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F5D92A-411D-4F07-87A3-DEFFC8DF3DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F5D92A-411D-4F07-87A3-DEFFC8DF3DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F5D92A-411D-4F07-87A3-DEFFC8DF3DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F5D92A-411D-4F07-87A3-DEFFC8DF3DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6C7041-331C-4FEA-B2BA-E5FA95084BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6C7041-331C-4FEA-B2BA-E5FA95084BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6C7041-331C-4FEA-B2BA-E5FA95084BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6C7041-331C-4FEA-B2BA-E5FA95084BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8618AD5-DDD2-42EF-AAFF-FCA3D0AB64A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8618AD5-DDD2-42EF-AAFF-FCA3D0AB64A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8618AD5-DDD2-42EF-AAFF-FCA3D0AB64A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8618AD5-DDD2-42EF-AAFF-FCA3D0AB64A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C3E1140-9706-4620-AF24-A4118302B72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3E1140-9706-4620-AF24-A4118302B72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3E1140-9706-4620-AF24-A4118302B72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3E1140-9706-4620-AF24-A4118302B72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0F790CC-0588-46C8-A8E8-9DBD9ECA7530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0F790CC-0588-46C8-A8E8-9DBD9ECA7530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0F790CC-0588-46C8-A8E8-9DBD9ECA7530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0F790CC-0588-46C8-A8E8-9DBD9ECA7530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA89BE44-55A4-4405-B363-C1BAD1E25F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA89BE44-55A4-4405-B363-C1BAD1E25F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA89BE44-55A4-4405-B363-C1BAD1E25F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA89BE44-55A4-4405-B363-C1BAD1E25F59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SmsCenter.Api\\SmsCenter.Api.csproj
+		SccProjectName1 = SmsCenter.Api
+		SccLocalPath1 = SmsCenter.Api
+		SccProjectUniqueName2 = SmsCenter.DataAccess\\SmsCenter.DataAccess.csproj
+		SccProjectName2 = SmsCenter.DataAccess
+		SccLocalPath2 = SmsCenter.DataAccess
+		SccProjectUniqueName3 = SmsCenter.Entities\\SmsCenter.Entities.csproj
+		SccProjectName3 = SmsCenter.Entities
+		SccLocalPath3 = SmsCenter.Entities
+		SccProjectUniqueName4 = SmsCenter.Facade\\SmsCenter.Facade.csproj
+		SccProjectName4 = SmsCenter.Facade
+		SccLocalPath4 = SmsCenter.Facade
+		SccProjectUniqueName5 = SmsCenter.UnitTest\\SmsCenter.UnitTest.csproj
+		SccProjectName5 = SmsCenter.UnitTest
+		SccLocalPath5 = SmsCenter.UnitTest
+		SccProjectUniqueName6 = SmsCenter.Proxy\\Winner.SmsCenter.Client.csproj
+		SccProjectName6 = SmsCenter.Proxy
+		SccLocalPath6 = SmsCenter.Proxy
+	EndGlobalSection
+EndGlobal
